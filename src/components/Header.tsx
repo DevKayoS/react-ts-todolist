@@ -1,12 +1,12 @@
 import  React from 'react';
+import styles from './Header.module.css'
 
-interface IAppProps {
-}
-
-const Header: React.FunctionComponent<IAppProps> = (props) => {
+const Header = () => {
   return(
-    <div>
-        
+    <div >
+        <header className={styles.header}>
+            <h1>React + TS todo</h1>
+        </header>
     </div>
   ) ;
 };
